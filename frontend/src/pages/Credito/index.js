@@ -89,7 +89,7 @@ export default function Credito(){
 
                 <button className="button" type="submit" >Calcular Limite</button>
                 <label>{message}</label>
-                <label>{valorLimite}</label>
+                <label>Valor: {valorLimite}</label>
             </form>
 
         </div>
