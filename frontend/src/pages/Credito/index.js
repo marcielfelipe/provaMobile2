@@ -18,7 +18,7 @@ export default function Credito(){
     const[message,setmessage] = useState('');
 
     async function calcularCredito(e){
-        e.PreventDefault();
+        e.preventDefault();
 
 
         const data = {
